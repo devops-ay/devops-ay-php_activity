@@ -12,7 +12,7 @@
 	<div id="big_wrapper">
 
 
-	<header id="header">Ali's VCDEP Application</header>
+	<header id="header">Ali's VCDEP</header>
 	<!-- Displaying the navigation bar -->
 	<nav id="navigation">
 		<ul>Home</ul>
