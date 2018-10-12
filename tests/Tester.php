@@ -35,8 +35,23 @@ class Tester extends \PHPUnit\Framework\TestCase
 
     }
 
-    /** Implement the testCost method below */
-    /** Implement the testManufacturer method below */
+    /** Testing the testCost() method */
+	public function testCost()
+    {
+
+            $this->testSetup();
+            $this->assertEquals($this->test->getCost(), "$1300");
+
+    }
+    
+    /** Testing the getManufacturer() method */
+	public function testManufacturer()
+    {
+
+            $this->testSetup();
+            $this->assertEquals($this->test->getManufacturer(), "Alienware");
+
+    }
 		
     /** Testing the image methods using the database */
     public function testImage()
